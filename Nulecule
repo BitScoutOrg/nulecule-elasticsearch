@@ -16,9 +16,21 @@ graph:
       - name: image
         description: Image to run
         default: bitscout/elasticsearch:latest
+      - name: external_port
+        description: port to expose to external clients
+        default: 9200
+      - name: docker_user_flag
+        description: Docker user flag
+        default: "-u"
       - name: uid
         description: Numeric user id to use to run elasticsearch
         default: 1000
+      - name: docker_vol_flag
+        description: Docker volume flag
+        default: "-v"
+      - name: docker_vol_sep
+        description: Docker volume separator/delimiter
+        default: ":"
       - name: hostdir
         description: Host directory of persistent volume
         default: /var/lib/bitscout/elasticsearch
