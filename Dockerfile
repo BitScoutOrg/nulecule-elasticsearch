@@ -1,5 +1,5 @@
 FROM projectatomic/atomicapp:0.1.12
-MAINTAINER The BitScout Community <community@TBA>
+MAINTAINER The ViaQ Community <community@TBA>
 
 LABEL io.projectatomic.nulecule.providers="docker" \
       io.projectatomic.nulecule.specversion="0.0.2"
