@@ -1,7 +1,7 @@
 [general]
-namespace = bitscout-elasticsearch
+namespace = viaq-elasticsearch
 provider = docker
-[bitscout-elasticsearch]
+[viaq-elasticsearch]
 docker_user_flag = " "
 uid = " "
 docker_vol_flag = " "
